@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Camisa Santa Cruz Concentração 2021",
+            "price": 119.90
+        },
+        {
+            "id": 2,
+            "name": "Regata Branca Lines",
+            "price": 64.90
+        },
+        {
+            "id": 3,
+            "name": "Uniforme 1 Santa Cruz 2021",
+            "price": 200
+        }
+    ]
+}
