@@ -20,6 +20,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 
+import { HttpClientModule } from '@angular/common/http'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +41,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
